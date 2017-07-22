@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.starhood.musicapp.OnlineRadio">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/dis_textViews"
+                android:text="@string/radio_description" />
+
+            <TextView
+                android:id="@+id/now_play_radio_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loading Station Please wait... "
+                android:textSize="@dimen/tp30" />
+
+            <ImageView
+                android:id="@+id/Radio"
+                android:layout_width="@dimen/picsdim150"
+                android:layout_height="@dimen/picsdim150"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/picsdim40"
+                android:background="@drawable/signal" />
+
+            <ImageButton
+                android:id="@+id/play_pause_Radio"
+                android:layout_width="@dimen/picsdim100"
+                android:layout_height="@dimen/picsdim100"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/tp20"
+                android:background="@drawable/pause" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="main_activity_description_TV">Here you can choose if you want to display all the music located on the device, view the artist or view the albums </string>
+    <string name="all_songs_description_TV">Here all the songs located in the device should appears so the user could choose between</string>
+    <string name="playing_description">Here the song you had choose suppose to play, you can play pause the song </string>
+    <string name="radio_description">Here is a static online Radio podcast where you can listen to online music </string>
+    <string name="album_description">Here all the music should be classed by there albums, you can choose any album to display its content  </string>
+    <string name="artist_description">Here all the music should be classed by there artist, you can choose any album to display its content</string>
+    <string name="disSelected_description">Here all the music you selected either by the album name or the artist should be displayed</string>
+    <string name="all_songs">All Songs</string>
+    <string name="artist">Artists</string>
+    <string name="songs">Songs</string>
+    <string name="albums">Albums</string>
+    <string name="radio">Radio Station</string>
+    <string name="playing">Playing Now</string>
+</resources>
